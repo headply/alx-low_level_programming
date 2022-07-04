@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 /**
  * main - Print Small and capital a to z
  *
@@ -11,8 +11,12 @@ int main(void)
 
 	for (i = 'a' ; i <= 'z'; i++)
 		putchar(i);
-	for (i = 'a' ; i <= 'z'; i++)
-		putchar(toupper(i));
+	int a;
+
+	i = a;
+
+	for (a = 'a' ; a <= 'z'; a++)
+		putchar(toupper(a));
 	int putchar("\n");
 	return (0);
 }
