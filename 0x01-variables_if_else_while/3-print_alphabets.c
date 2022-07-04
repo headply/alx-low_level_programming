@@ -13,6 +13,6 @@ int main(void)
 		putchar(i);
 	for (i = 'a' ; i <= 'z'; i++)
 		putchar(toupper(i));
-	putchar("\n");
+	int putchar("\n");
 	return (0);
 }
