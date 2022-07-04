@@ -7,7 +7,8 @@
 
 int main(void)
 {
-	char a_to_i;
+	int c;
+
 	for (a_to_i = 'a'; a_to_i <= 'z'; a_to_i++)
 	{
 		putchar(a_to_i);
