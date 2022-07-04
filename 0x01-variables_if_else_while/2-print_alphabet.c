@@ -8,8 +8,10 @@
 int main(void)
 {
 	char a_to_i;
-	for (a_to_z = 'a'; a_to_z <= 'z'; a_to_z++)
-		putchar(a_to_z);
+	for (a_to_i = 'a'; a_to_i <= 'z'; a_to_i++)
+	{
+		putchar(a_to_i);
+	}
 	putchar('\n');
 	return (0);
 }
