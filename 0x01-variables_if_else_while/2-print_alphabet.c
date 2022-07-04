@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	int c;
+	int i;
 
 	for (a_to_i = 'a'; a_to_i <= 'z'; a_to_i++)
 	{
